@@ -56,3 +56,4 @@ MonoBehaviour:
   - update
   - tempDisable
   - idle
+  - heal
