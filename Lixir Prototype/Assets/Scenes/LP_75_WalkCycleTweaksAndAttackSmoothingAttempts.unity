@@ -38983,7 +38983,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101
-        actionIsOpen: 000001
+        actionIsOpen: 000101
         actionStartIndex: 000000000300000008000000
         actionHashCodes: 1012c10087604502fcb1a001
         unityObjectParams: []
@@ -39076,7 +39076,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          value: 2
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
@@ -39407,7 +39407,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101
-        actionIsOpen: 01000000
+        actionIsOpen: 01000100
         actionStartIndex: 0000000003000000060000000a000000
         actionHashCodes: 27fbe1031012c1002a6e8a0048c01101
         unityObjectParams: []
@@ -39440,9 +39440,9 @@ MonoBehaviour:
         - useVariable: 1
           name: chargeRate
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
-          value: 2
+          value: 6
         - useVariable: 0
           name: 
           tooltip: 
@@ -49105,7 +49105,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.5
+  m_Mass: 2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
