@@ -58,3 +58,4 @@ MonoBehaviour:
   - idle
   - heal
   - animEnd
+  - resetBoss
