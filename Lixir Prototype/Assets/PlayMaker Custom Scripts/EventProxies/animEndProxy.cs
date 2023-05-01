@@ -8,14 +8,14 @@ using HutongGames.PlayMaker;
 
 namespace com.LXR
 {
-	public class AttackHitCheckProxy : PlayMakerEventProxy {
+	public class animEndProxy : PlayMakerEventProxy {
 
-		[Button("AttackHitCheck","Test : AttackHitCheck")] public bool _;
-		public void AttackHitCheck()
+		[Button("animEnd","Test : animEnd")] public bool _;
+		public void animEnd()
 		{
 			if (debug || !Application.isPlaying)
 			{
-				Debug.Log("AttackHitCheckProxy : AttackHitCheck()");
+				Debug.Log("animEndProxy : animEnd()");
 			}
 
             
