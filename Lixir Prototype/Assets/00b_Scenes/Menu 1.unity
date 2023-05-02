@@ -713,7 +713,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: Game2
+          value: Game1
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
