@@ -22375,7 +22375,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101
-        actionIsOpen: 0101
+        actionIsOpen: 0000
         actionStartIndex: 0000000004000000
         actionHashCodes: ba7ea101b2cf1000
         unityObjectParams: []
@@ -64631,7 +64631,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 208
         y: 112
-        width: 100.4
+        width: 100
         height: 16
       isBreakpoint: 0
       isSequence: 0
@@ -64661,7 +64661,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 
+          value: Menu
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -64698,8 +64698,20 @@ MonoBehaviour:
         - failedEvent
         paramDataPos: 000000000000000001000000000000000000000001000000
         paramByteDataSize: 000000000100000001000000000000000000000000000000
-    events: []
-    globalTransitions: []
+    events:
+    - name: UI CLICK
+      isSystemEvent: 1
+      isGlobal: 0
+    globalTransitions:
+    - fsmEvent:
+        name: UI CLICK
+        isSystemEvent: 1
+        isGlobal: 0
+      toState: Go To Menu
+      linkStyle: 0
+      linkConstraint: 0
+      linkTarget: 0
+      colorIndex: 0
     variables:
       floatVariables: []
       intVariables: []
@@ -79112,7 +79124,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &830814712
 RectTransform:
   m_ObjectHideFlags: 0
@@ -79616,7 +79628,7 @@ MonoBehaviour:
         - Unpause
         - 
         actionEnabled: 0101010101010101
-        actionIsOpen: 0100000000000100
+        actionIsOpen: 0100000000000000
         actionStartIndex: 0000000005000000080000000a0000000e000000120000001600000018000000
         actionHashCodes: b2cf10006cdd4504da20970487aa970087aa970087aa9700da2097041012c100
         unityObjectParams: []
@@ -79629,7 +79641,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 0}
+            value: {fileID: 830814711}
         - ownerOption: 1
           gameObject:
             useVariable: 0
@@ -79767,7 +79779,7 @@ MonoBehaviour:
         - Double-click to edit comment.
         - Double-click to edit comment.
         - next
-        byteData: 0000000000000000000000
+        byteData: 0100000000000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
