@@ -358,7 +358,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 6
+          value: 10
         - useVariable: 0
           name: 
           tooltip: 
@@ -834,7 +834,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 0
         networkSync: 0
-        value: 10
+        value: 15
       intVariables: []
       boolVariables: []
       stringVariables: []
