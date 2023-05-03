@@ -68298,7 +68298,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101010101
-        actionIsOpen: 000000000101
+        actionIsOpen: 000000000001
         actionStartIndex: 000000000300000005000000080000000b00000010000000
         actionHashCodes: 1012c100e8ea390227fbe10327fbe10368fece05a4c8bf00
         unityObjectParams: []
@@ -77559,7 +77559,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101
-        actionIsOpen: 0000
+        actionIsOpen: 0001
         actionStartIndex: 0000000005000000
         actionHashCodes: c34b410572e62e01
         unityObjectParams: []
@@ -79543,7 +79543,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101
-        actionIsOpen: 00010000
+        actionIsOpen: 01010000
         actionStartIndex: 0000000003000000170000001c000000
         actionHashCodes: 30525b0161566a03876045025e69bb04
         unityObjectParams: []
@@ -79632,7 +79632,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.25
+          value: 0.1
         - useVariable: 0
           name: 
           tooltip: 
@@ -79854,7 +79854,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 4
+          value: 10
         - useVariable: 1
           name: 
           tooltip: 
@@ -80733,7 +80733,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!70 &744674623
 CapsuleCollider2D:
