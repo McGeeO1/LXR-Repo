@@ -78460,13 +78460,14 @@ MonoBehaviour:
         paramDataPos: 0000000000000000000000000100000000000000010000000000000000000000
         paramByteDataSize: 0000000000000000000000000000000000000000000000000100000000000000
     - name: reset
-      description: 
+      description: Here is where the boss' logic is stored. The boss is woken up
+        when the player enters the room via a trigger collider.
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 192
+        x: 112
         y: 112
-        width: 100
+        width: 400
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -79277,7 +79278,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 2
         fsmIntParams:
         - useVariable: 1
           name: 
