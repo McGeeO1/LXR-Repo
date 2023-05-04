@@ -60,3 +60,5 @@ MonoBehaviour:
   - animEnd
   - resetBoss
   - backToStart
+  - Invincible
+  - Untouchable
