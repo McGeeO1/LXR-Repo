@@ -66590,7 +66590,7 @@ MonoBehaviour:
         - 
         - 
         - Comment
-        actionEnabled: 010001
+        actionEnabled: 010101
         actionIsOpen: 000001
         actionStartIndex: 00000000080000000b000000
         actionHashCodes: ee20bc0048c0110178c53001
