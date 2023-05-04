@@ -16201,7 +16201,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 18.50185, y: 11.351135}
+  m_AnchoredPosition: {x: 0, y: 0.5}
   m_SizeDelta: {x: 570, y: 320.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &191117091
@@ -22780,7 +22780,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 44.60446, y: -5.400589, z: -10}
+  m_LocalPosition: {x: 70.10701, y: 21.60211, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -65229,7 +65229,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591644451}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 44.60446, y: -5.900589, z: 0}
+  m_LocalPosition: {x: 70.10701, y: 21.10211, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -76236,7 +76236,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101
-        actionIsOpen: 00000000
+        actionIsOpen: 00010000
         actionStartIndex: 00000000030000000900000011000000
         actionHashCodes: 2ee0170460532301d596ab020c122b03
         unityObjectParams: []
@@ -76344,12 +76344,12 @@ MonoBehaviour:
           networkSync: 0
           value: {x: 0, y: 0}
         fsmVector3Params:
-        - useVariable: 1
+        - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {x: 0, y: 0, z: 0}
+          value: {x: 0, y: -2, z: 0}
         - useVariable: 1
           name: 
           tooltip: 
@@ -76561,7 +76561,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {x: 0, y: 2, z: 0}
+          value: {x: 0, y: -2, z: 0}
         - useVariable: 1
           name: 
           tooltip: 
@@ -76740,7 +76740,7 @@ MonoBehaviour:
           name: next
           isSystemEvent: 0
           isGlobal: 0
-        toState: SPAWN ITEM
+        toState: DEAD
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -76762,7 +76762,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101
-        actionIsOpen: 0101
+        actionIsOpen: 0000
         actionStartIndex: 0000000005000000
         actionHashCodes: c34b41051bcdca04
         unityObjectParams: []
@@ -76861,14 +76861,23 @@ MonoBehaviour:
       colorIndex: 6
       position:
         serializedVersion: 2
-        x: 624
+        x: 464
         y: 112
         width: 100
-        height: 16
+        height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-      transitions: []
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: SPAWN ITEM
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.AnimatorPlay
@@ -76877,7 +76886,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.SetIsKinematic2d
         - HutongGames.PlayMaker.Actions.SetVelocity2d
         - HutongGames.PlayMaker.Actions.SetProperty
-        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.Wait
         customNames:
         - 
         - 
@@ -76889,7 +76898,7 @@ MonoBehaviour:
         actionEnabled: 01010101010101
         actionIsOpen: 00000000000001
         actionStartIndex: 0000000005000000090000000d0000000f0000001500000017000000
-        actionHashCodes: c34b410587aa970087aa970015264c0168fde3045ac85204b2cf1000
+        actionHashCodes: c34b410587aa970087aa970015264c0168fde3045ac8520448c01101
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -76933,14 +76942,6 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 1
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 133805102}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -77121,6 +77122,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
         fsmIntParams:
         - useVariable: 1
           name: 
@@ -77159,18 +77166,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 1
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
         fsmVector2Params:
         - useVariable: 0
           name: 
@@ -77182,13 +77177,14 @@ MonoBehaviour:
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams: []
-        byteData: 000000000000000000
+        stringParams:
+        - FINISHED
+        byteData: 0000000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000100000000f000000010000001400000012000000110000001100000014000000120000001100000011000000140000001100000014000000250000000f0000000f000000070000000100000024000000010000001400000011000000110000000100000001000000
+        paramDataType: 1400000012000000100000000f000000010000001400000012000000110000001100000014000000120000001100000011000000140000001100000014000000250000000f0000000f000000070000000100000024000000010000000f0000001700000001000000
         paramName:
         - gameObject
         - stateName
@@ -77213,13 +77209,11 @@ MonoBehaviour:
         - everyFrame
         - targetProperty
         - everyFrame
-        - gameObject
-        - activate
-        - recursive
-        - resetOnExit
-        - everyFrame
-        paramDataPos: 00000000000000000000000000000000000000000100000001000000000000000100000002000000020000000200000003000000030000000400000004000000000000000100000002000000010000000500000000000000060000000500000005000000060000000700000008000000
-        paramByteDataSize: 00000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000100000000000000010000000000000000000000000000000100000001000000
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 0000000000000000000000000000000000000000010000000100000000000000010000000200000002000000020000000300000003000000040000000400000000000000010000000200000001000000050000000000000006000000030000000000000007000000
+        paramByteDataSize: 0000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000010000000000000001000000000000000000000001000000
     - name: DAMAGED
       description: 
       colorIndex: 5
@@ -77252,7 +77246,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101
-        actionIsOpen: 010101
+        actionIsOpen: 000101
         actionStartIndex: 000000000500000009000000
         actionHashCodes: c34b41055e69bb0448c01101
         unityObjectParams: []
@@ -77376,7 +77370,7 @@ MonoBehaviour:
       colorIndex: 1
       position:
         serializedVersion: 2
-        x: 464
+        x: 624
         y: 112
         width: 108.4
         height: 32
@@ -77388,7 +77382,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: DEAD
+        toState: Canvas Off
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -77396,12 +77390,14 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.EnableFSM
+        - HutongGames.PlayMaker.Actions.Wait
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 87aa9700
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000004000000
+        actionHashCodes: 87aa970048c01101
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -77430,7 +77426,13 @@ MonoBehaviour:
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 4
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
@@ -77450,20 +77452,103 @@ MonoBehaviour:
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams: []
-        byteData: 
+        stringParams:
+        - FINISHED
+        byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000120000001100000011000000
+        paramDataType: 140000001200000011000000110000000f0000001700000001000000
         paramName:
         - gameObject
         - fsmName
         - enable
         - resetOnExit
-        paramDataPos: 00000000000000000000000001000000
-        paramByteDataSize: 00000000000000000000000000000000
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 00000000000000000000000001000000000000000000000000000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000001000000
+    - name: Canvas Off
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 784
+        y: 112
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 00
+        actionStartIndex: 00000000
+        actionHashCodes: b2cf1000
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 133805102}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000011000000110000000100000001000000
+        paramName:
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        paramDataPos: 0000000000000000010000000000000001000000
+        paramByteDataSize: 0000000000000000000000000100000001000000
     events:
     - name: next
       isSystemEvent: 0
@@ -82283,7 +82368,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1015717569}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 44.60446, y: -5.400589, z: -10}
+  m_LocalPosition: {x: 70.10701, y: 21.60211, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -84177,7 +84262,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101
-        actionIsOpen: 01000101
+        actionIsOpen: 00010000
         actionStartIndex: 00000000030000000900000011000000
         actionHashCodes: 2ee0170460532301d596ab020c122b03
         unityObjectParams: []
@@ -84285,12 +84370,12 @@ MonoBehaviour:
           networkSync: 0
           value: {x: 0, y: 0}
         fsmVector3Params:
-        - useVariable: 1
+        - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {x: 0, y: 0, z: 0}
+          value: {x: 0, y: -1, z: 0}
         - useVariable: 1
           name: 
           tooltip: 
@@ -88079,6 +88164,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.SetVelocity2d
         - HutongGames.PlayMaker.Actions.SetProperty
         - HutongGames.PlayMaker.Actions.AnimatorPlay
+        - HutongGames.PlayMaker.Actions.Wait
         customNames:
         - 
         - 
@@ -88087,10 +88173,11 @@ MonoBehaviour:
         - 
         - Set Property - Disable Collider
         - 
-        actionEnabled: 01010101010101
-        actionIsOpen: 00000000000000
-        actionStartIndex: 0000000004000000080000000c0000000e0000001400000016000000
-        actionHashCodes: 87aa970087aa970087aa970015264c0168fde3045ac85204c34b4105
+        - 
+        actionEnabled: 0101010101010101
+        actionIsOpen: 0000000000000001
+        actionStartIndex: 0000000004000000080000000c0000000e00000014000000160000001b000000
+        actionHashCodes: 87aa970087aa970087aa970015264c0168fde3045ac85204c34b410548c01101
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -88328,6 +88415,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.5
         fsmIntParams:
         - useVariable: 1
           name: 
@@ -88389,13 +88482,14 @@ MonoBehaviour:
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams: []
-        byteData: 00000000000000
+        stringParams:
+        - FINISHED
+        byteData: 0000000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000001200000011000000110000001400000012000000110000001100000014000000120000001100000011000000140000001100000014000000250000000f0000000f000000070000000100000024000000010000001400000012000000100000000f00000001000000
+        paramDataType: 140000001200000011000000110000001400000012000000110000001100000014000000120000001100000011000000140000001100000014000000250000000f0000000f000000070000000100000024000000010000001400000012000000100000000f000000010000000f0000001700000001000000
         paramName:
         - gameObject
         - fsmName
@@ -88424,8 +88518,11 @@ MonoBehaviour:
         - layer
         - normalizedTime
         - everyFrame
-        paramDataPos: 000000000000000000000000010000000100000001000000020000000300000002000000020000000400000005000000030000000600000004000000000000000000000001000000000000000400000000000000050000000500000003000000000000000200000006000000
-        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000100000000000000010000000000000000000000000000000000000001000000
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 000000000000000000000000010000000100000001000000020000000300000002000000020000000400000005000000030000000600000004000000000000000000000001000000000000000400000000000000050000000500000003000000000000000200000006000000030000000000000007000000
+        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000100000000000000010000000000000000000000000000000000000001000000000000000000000001000000
     - name: DAMAGED
       description: 
       colorIndex: 5
@@ -89222,7 +89319,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.10001024, y: 0.8000802}
+  m_AnchoredPosition: {x: 0, y: 0.75}
   m_SizeDelta: {x: 570, y: 320.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1595405127
