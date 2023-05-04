@@ -65093,6 +65093,7 @@ GameObject:
   - component: {fileID: 591644459}
   - component: {fileID: 591644458}
   - component: {fileID: 591644475}
+  - component: {fileID: 591644474}
   - component: {fileID: 591644464}
   - component: {fileID: 591644463}
   - component: {fileID: 591644465}
@@ -65104,7 +65105,6 @@ GameObject:
   - component: {fileID: 591644471}
   - component: {fileID: 591644472}
   - component: {fileID: 591644473}
-  - component: {fileID: 591644474}
   - component: {fileID: 591644476}
   - component: {fileID: 591644477}
   m_Layer: 6
@@ -71418,7 +71418,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101000001
-        actionIsOpen: 000000000000
+        actionIsOpen: 000000000001
         actionStartIndex: 000000000a0000000d000000150000001a0000001e000000
         actionHashCodes: 39f2190030525b01d596ab02876045025e69bb0448c01101
         unityObjectParams: []
@@ -71549,7 +71549,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.5
+          value: 0.2
         fsmIntParams:
         - useVariable: 1
           name: 
@@ -75972,7 +75972,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591644451}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
   m_Name: 
@@ -79419,7 +79419,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 0.5
         fsmIntParams:
         - useVariable: 1
           name: 
@@ -82086,7 +82086,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 0.3
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -82606,7 +82606,7 @@ MonoBehaviour:
     - fsmEvent:
         name: backToStart
         isSystemEvent: 0
-        isGlobal: 0
+        isGlobal: 1
       toState: Get Side
       linkStyle: 0
       linkConstraint: 0
