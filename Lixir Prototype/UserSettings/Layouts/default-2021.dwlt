@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: PlayMaker
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 93
+  controlID: 11979
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 94
+  controlID: 11980
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 95
+  controlID: 11981
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 106
+  controlID: 12023
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -312,7 +312,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: FsmActionWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -321,15 +321,15 @@ MonoBehaviour:
     y: 0
     width: 397.59998
     height: 365.19998
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 21}
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 21}
   - {fileID: 22}
   - {fileID: 23}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -396,7 +396,7 @@ MonoBehaviour:
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 0
+  m_EnterPlayModeBehavior: 1
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
@@ -730,9 +730,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 61.83393, y: 3.7681036, z: -0.24292211}
+    m_Target: {x: 77.431244, y: 21.254797, z: -0.27257678}
     speed: 2
-    m_Value: {x: 62.11008, y: 3.7774873, z: -0.23222464}
+    m_Value: {x: 77.431244, y: 21.254797, z: -0.27257678}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -783,9 +783,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 24.841755
+    m_Target: 9.20044
     speed: 2
-    m_Value: 23.772015
+    m_Value: 9.20044
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -989,7 +989,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 28094
+  m_LastSelectedObjectID: 28048
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1020,10 +1020,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 28.399994}
-      m_SelectedIDs: b66e0000
-      m_LastClickedID: 28342
-      m_ExpandedIDs: 0efbffffea6d00009a6e0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 0efbffff3a6e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1084,17 +1084,14 @@ MonoBehaviour:
       stateName: 
       stateNames: []
       transitionIndex: 0
-      scrollPosition: {x: 0, y: 0}
+      scrollPosition: {x: -137, y: -136.60004}
       zoom: 1
     selectionHistory:
       backList:
-      - fsmComponentID: 28346
+      - fsmComponentID: 28106
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 27948
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 28328
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 0
@@ -1103,22 +1100,10 @@ MonoBehaviour:
       - fsmComponentID: 28148
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 28106
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
       - fsmComponentID: 28118
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 28150
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 28146
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: -313744
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: -237868
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 28114
@@ -1145,12 +1130,6 @@ MonoBehaviour:
       - fsmComponentID: 28334
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 28144
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 28326
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
       - fsmComponentID: 28112
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
@@ -1165,14 +1144,6 @@ MonoBehaviour:
         fsmTemplate: {fileID: 0}
       forwardList: []
       selectionCache:
-      - fsmComponentID: 28144
-        fsmTemplate: {fileID: 0}
-        stateName: COMPLETE
-        stateNames:
-        - COMPLETE
-        transitionIndex: -1
-        scrollPosition: {x: -104.37787, y: 44.14009}
-        zoom: 0.6700003
       - fsmComponentID: 28106
         fsmTemplate: {fileID: 0}
         stateName: Hit Type
@@ -1181,14 +1152,6 @@ MonoBehaviour:
         transitionIndex: -1
         scrollPosition: {x: 324.78485, y: 235.27475}
         zoom: 0.52000046
-      - fsmComponentID: 28328
-        fsmTemplate: {fileID: 0}
-        stateName: Attacking
-        stateNames:
-        - Attacking
-        transitionIndex: -1
-        scrollPosition: {x: 146.56226, y: -53.499924}
-        zoom: 0.6100004
       - fsmComponentID: 28112
         fsmTemplate: {fileID: 0}
         stateName: 
@@ -1229,17 +1192,9 @@ MonoBehaviour:
         transitionIndex: -1
         scrollPosition: {x: -103.46973, y: -88.37564}
         zoom: 0.5500004
-      - fsmComponentID: 28326
-        fsmTemplate: {fileID: 0}
-        stateName: COMPLETE
-        stateNames:
-        - COMPLETE
-        transitionIndex: -1
-        scrollPosition: {x: -11.65271, y: -18.867172}
-        zoom: 0.73000026
       - fsmComponentID: 28330
         fsmTemplate: {fileID: 0}
-        stateName: Chase
+        stateName: 
         stateNames:
         - Chase
         transitionIndex: -1
@@ -1269,14 +1224,6 @@ MonoBehaviour:
         transitionIndex: -1
         scrollPosition: {x: 363.16003, y: -20.552002}
         zoom: 0.8800001
-      - fsmComponentID: 28146
-        fsmTemplate: {fileID: 0}
-        stateName: SPAWN ITEM
-        stateNames:
-        - SPAWN ITEM
-        transitionIndex: -1
-        scrollPosition: {x: -7.499878, y: -48.699936}
-        zoom: 0.64000034
       - fsmComponentID: 27948
         fsmTemplate: {fileID: 0}
         stateName: 
@@ -1293,16 +1240,9 @@ MonoBehaviour:
         transitionIndex: -1
         scrollPosition: {x: -83.757996, y: -41.634033}
         zoom: 0.9100001
-      - fsmComponentID: 28346
-        fsmTemplate: {fileID: 0}
-        stateName: 
-        stateNames: []
-        transitionIndex: -1
-        scrollPosition: {x: -50, y: -75}
-        zoom: 1
       - fsmComponentID: 28334
         fsmTemplate: {fileID: 0}
-        stateName: DAMAGED
+        stateName: 
         stateNames:
         - DAMAGED
         transitionIndex: -1
@@ -1310,7 +1250,7 @@ MonoBehaviour:
         zoom: 0.64000034
       - fsmComponentID: 28148
         fsmTemplate: {fileID: 0}
-        stateName: Hit Check 1
+        stateName: 
         stateNames:
         - Hit Check 1
         transitionIndex: -1
@@ -1324,14 +1264,6 @@ MonoBehaviour:
         transitionIndex: -1
         scrollPosition: {x: -17.759949, y: -18.219925}
         zoom: 0.7900002
-      - fsmComponentID: -237868
-        fsmTemplate: {fileID: 0}
-        stateName: Dodging
-        stateNames:
-        - Dodging
-        transitionIndex: -1
-        scrollPosition: {x: -84.0401, y: -30.407928}
-        zoom: 0.9100001
       - fsmComponentID: 28110
         fsmTemplate: {fileID: 0}
         stateName: Variable Jump
@@ -1348,30 +1280,19 @@ MonoBehaviour:
         transitionIndex: -1
         scrollPosition: {x: 18.200134, y: 14.709991}
         zoom: 0.85000014
-      - fsmComponentID: -313744
-        fsmTemplate: {fileID: 0}
-        stateName: Untouchable
-        stateNames:
-        - Untouchable
-        transitionIndex: -1
-        scrollPosition: {x: -50, y: -59}
-        zoom: 1
       - fsmComponentID: 28150
         fsmTemplate: {fileID: 0}
-        stateName: Init
+        stateName: 
         stateNames:
         - Init
         transitionIndex: -1
         scrollPosition: {x: -20, y: -63}
         zoom: 1
       recentlySelectedList:
-      - fsmComponentID: 28346
+      - fsmComponentID: 28106
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 27948
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 28328
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 0
@@ -1380,22 +1301,10 @@ MonoBehaviour:
       - fsmComponentID: 28148
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 28106
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
       - fsmComponentID: 28118
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 28150
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 28146
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: -313744
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: -237868
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 28114
@@ -1420,12 +1329,6 @@ MonoBehaviour:
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 28334
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 28144
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 28326
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 28112
@@ -1510,22 +1413,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/02_LixirPrefabs/Player/Animation
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 67
   m_LastFolders:
-  - Assets/02_LixirPrefabs/Player/Animation
+  - Assets
   m_LastFoldersGridSize: 67
   m_LastProjectPath: D:\Unity\Projects\Lixir Prototype
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 155.80002}
-    m_SelectedIDs: cc970000
-    m_LastClickedID: 38860
-    m_ExpandedIDs: 00000000a4710000a6710000a8710000aa710000ac710000ae710000b2710000b4710000b6710000b8710000ba710000bc71000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: c4710000
+    m_LastClickedID: 29124
+    m_ExpandedIDs: 00000000c4710000c6710000c8710000ca710000cc710000ce710000d0710000d2710000d4710000d6710000d8710000da71000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1553,7 +1456,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a4710000a6710000a8710000aa710000ac710000ae710000b0710000b2710000b4710000b6710000b8710000ba710000bc710000be710000
+    m_ExpandedIDs: 00000000c4710000c6710000c8710000ca710000cc710000ce710000d0710000d2710000d4710000d6710000d8710000da71000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1578,9 +1481,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: be6d0000
-    m_LastClickedInstanceID: 28094
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000326c0000000000005e6d000020710000f0880000ea9a0000e8770000089e00001c6f0000186f0000146f0000106f0000cc840000ba6d00000eb600005e6f00004e6f0000206e0000907700004e6e0000747200009ec100005c6e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1605,7 +1508,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 375.80002}
     m_GridSize: 67
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 204.00003
