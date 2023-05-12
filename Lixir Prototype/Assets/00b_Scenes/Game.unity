@@ -22875,7 +22875,7 @@ GameObject:
   - component: {fileID: 524699458}
   m_Layer: 7
   m_Name: Platforms-Tilemap
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65591,7 +65591,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 432
-        y: 448
+        y: 400
         width: 107.6
         height: 32
       isBreakpoint: 0
@@ -65716,7 +65716,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 432
-        y: 528
+        y: 448
         width: 111.6
         height: 32
       isBreakpoint: 0
@@ -65841,7 +65841,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 432
-        y: 608
+        y: 496
         width: 114
         height: 48
       isBreakpoint: 0
@@ -65975,8 +65975,8 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 672
-        y: 608
+        x: 608
+        y: 512
         width: 122
         height: 32
       isBreakpoint: 0
@@ -66211,8 +66211,8 @@ MonoBehaviour:
       colorIndex: 4
       position:
         serializedVersion: 2
-        x: 672
-        y: 688
+        x: 608
+        y: 576
         width: 100
         height: 32
       isBreakpoint: 0
@@ -66320,8 +66320,8 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 848
-        y: 688
+        x: 752
+        y: 576
         width: 122
         height: 32
       isBreakpoint: 0
@@ -66601,8 +66601,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1056
-        y: 656
+        x: 912
+        y: 528
         width: 100
         height: 32
       isBreakpoint: 0
@@ -66859,8 +66859,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1264
-        y: 656
+        x: 1056
+        y: 528
         width: 100
         height: 48
       isBreakpoint: 0
@@ -66888,16 +66888,12 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.GameObjectTagSwitch
-        - HutongGames.PlayMaker.Actions.Wait
-        - HutongGames.PlayMaker.Actions.Comment
         customNames:
         - 
-        - 
-        - Comment
-        actionEnabled: 010101
-        actionIsOpen: 000001
-        actionStartIndex: 00000000080000000b000000
-        actionHashCodes: ee20bc0048c0110178c53001
+        actionEnabled: 01
+        actionIsOpen: 00
+        actionStartIndex: 00000000
+        actionHashCodes: ee20bc00
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -66926,17 +66922,17 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: Destructable
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams:
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.25
+          value: Environment
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -66948,38 +66944,34 @@ MonoBehaviour:
         - A
         - B
         - backToStart
-        - REMOVE 'WAIT' IF IT CAUSES PROBLEMS; TEMPORARY FIX DUE TO ATTACKS NOT KNOWING
-          HOW TO REACT TO ENVIRONMENT.
-        byteData: 0000
-        arrayParamSizes: 0200000002000000
+        byteData: 00
+        arrayParamSizes: 0300000003000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmString
         - HutongGames.PlayMaker.FsmEvent
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 130000000c00000012000000120000000c0000001700000017000000010000000f000000170000000100000003000000
+        paramDataType: 130000000c0000001200000012000000120000000c00000017000000170000001700000001000000
         paramName:
         - gameObject
         - compareTo
         - 
         - 
+        - 
         - sendEvent
         - 
         - 
+        - 
         - everyFrame
-        - time
-        - finishEvent
-        - realTime
-        - comment
-        paramDataPos: 000000000000000000000000010000000100000000000000010000000000000000000000020000000100000003000000
-        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000100000000000000000000000100000000000000
+        paramDataPos: 00000000000000000000000001000000020000000100000000000000010000000200000000000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000001000000
     - name: Enemy Hit
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1472
-        y: 608
+        x: 1216
+        y: 528
         width: 100
         height: 32
       isBreakpoint: 0
@@ -67383,8 +67375,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1456
-        y: 704
+        x: 1216
+        y: 592
         width: 127.6
         height: 32
       isBreakpoint: 0
@@ -67522,8 +67514,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1664
-        y: 656
+        x: 1392
+        y: 528
         width: 110.8
         height: 16
       isBreakpoint: 0
@@ -67881,8 +67873,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 512
-        y: 768
+        x: 448
+        y: 672
         width: 400
         height: 16
       isBreakpoint: 0

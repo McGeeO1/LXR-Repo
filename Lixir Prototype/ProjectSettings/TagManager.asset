@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Destructable
   - SoftRespawn
+  - Environment
   layers:
   - Default
   - TransparentFX
