@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -103,7 +103,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: animated checkpoint left to right 2nd frame repeats for the 4th_0
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 593
+        width: 158
+        height: 785
+      alignment: 9
+      pivot: {x: 0, y: 0.12738854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7d1d3c9329388499924780e5eb29a0
+      internalID: 1411160930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated checkpoint left to right 2nd frame repeats for the 4th_1
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 131
+        width: 158
+        height: 360
+      alignment: 9
+      pivot: {x: 0, y: 0.08611111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fb4214ad0ba334094e9a2f6dd9f259
+      internalID: -775463826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated checkpoint left to right 2nd frame repeats for the 4th_2
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 593
+        width: 158
+        height: 785
+      alignment: 9
+      pivot: {x: 0, y: 0.12738854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049c804110e79824383939601f9f3743
+      internalID: -2125333497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated checkpoint left to right 2nd frame repeats for the 4th_3
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 139
+        width: 158
+        height: 346
+      alignment: 9
+      pivot: {x: 0, y: 0.08959538}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37111238c03547e4bb6ae46cafbb3abd
+      internalID: -1645532498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated checkpoint left to right 2nd frame repeats for the 4th_4
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 593
+        width: 158
+        height: 785
+      alignment: 9
+      pivot: {x: 0, y: 0.12738854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06f7d21ab7a0c04fa4db24440867b85
+      internalID: -609084273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated checkpoint left to right 2nd frame repeats for the 4th_5
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 128
+        width: 157
+        height: 355
+      alignment: 9
+      pivot: {x: 0, y: 0.08732394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485d76bdcd641f84cbad92ea20bf65f2
+      internalID: 754131972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +240,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      animated checkpoint left to right 2nd frame repeats for the 4th_10: 722624781
+      animated checkpoint left to right 2nd frame repeats for the 4th_9: -1222890790
+      animated checkpoint left to right 2nd frame repeats for the 4th_8: 991496247
+      animated checkpoint left to right 2nd frame repeats for the 4th_12: 1763889993
+      animated checkpoint left to right 2nd frame repeats for the 4th_3: -1645532498
+      animated checkpoint left to right 2nd frame repeats for the 4th_2: -2125333497
+      animated checkpoint left to right 2nd frame repeats for the 4th_5: 754131972
+      animated checkpoint left to right 2nd frame repeats for the 4th_7: -1243043233
+      animated checkpoint left to right 2nd frame repeats for the 4th_6: -932102667
+      animated checkpoint left to right 2nd frame repeats for the 4th_11: 251635489
+      animated checkpoint left to right 2nd frame repeats for the 4th_0: 1411160930
+      animated checkpoint left to right 2nd frame repeats for the 4th_1: -775463826
+      animated checkpoint left to right 2nd frame repeats for the 4th_4: -609084273
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
