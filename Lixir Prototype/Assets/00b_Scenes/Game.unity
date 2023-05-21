@@ -93413,8 +93413,8 @@ GameObject:
   m_Component:
   - component: {fileID: 909234230}
   - component: {fileID: 909234229}
-  - component: {fileID: 909234232}
   - component: {fileID: 909234231}
+  - component: {fileID: 909234232}
   m_Layer: 0
   m_Name: CageCenter
   m_TagString: Untagged
@@ -96882,6 +96882,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1405298796}
   - component: {fileID: 1405298795}
+  - component: {fileID: 1405298797}
   m_Layer: 0
   m_Name: CageRight
   m_TagString: Untagged
@@ -96980,6 +96981,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!251 &1405298797
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405298794}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!4 &1407244495 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8944569448961874168, guid: 57c495c1550f34e42ab77610e45025b8, type: 3}
