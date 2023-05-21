@@ -76911,7 +76911,7 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 01010101
+        actionEnabled: 00010101
         actionIsOpen: 00000001
         actionStartIndex: 00000000050000000d0000000f000000
         actionHashCodes: 87604502c9f579042f7290005e69bb04
@@ -77433,7 +77433,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 81.30813
+          value: -61.80618
         - useVariable: 1
           name: Y_vel
           tooltip: 
@@ -77454,7 +77454,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {x: 81.30813, y: 0}
+          value: {x: -61.80618, y: 0}
         fsmVector3Params: []
         fsmColorParams: []
         fsmRectParams: []
