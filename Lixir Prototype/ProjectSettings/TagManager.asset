@@ -19,8 +19,8 @@ TagManager:
   - Level
   - Untouchable
   - Enemy
-  - 
-  - 
+  - Platform
+  - FallThrough
   - 
   - 
   - 
