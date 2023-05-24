@@ -8,6 +8,7 @@ TagManager:
   - Destructable
   - SoftRespawn
   - Environment
+  - Rolling
   layers:
   - Default
   - TransparentFX

@@ -228,8 +228,8 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.AnimatorPlay
         - HutongGames.PlayMaker.Actions.SetProperty
+        - HutongGames.PlayMaker.Actions.AnimatorPlay
         - HutongGames.PlayMaker.Actions.EnableFSM
         - HutongGames.PlayMaker.Actions.Wait
         customNames:
@@ -238,9 +238,9 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101
-        actionIsOpen: 00000101
-        actionStartIndex: 0000000005000000070000000b000000
-        actionHashCodes: c34b41055ac8520487aa970048c01101
+        actionIsOpen: 00010000
+        actionStartIndex: 0000000002000000070000000b000000
+        actionHashCodes: 5ac85204c34b410587aa970048c01101
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -460,14 +460,14 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000100000000f000000010000002400000001000000140000001200000011000000110000000f0000001700000001000000
+        paramDataType: 24000000010000001400000012000000100000000f00000001000000140000001200000011000000110000000f0000001700000001000000
         paramName:
+        - targetProperty
+        - everyFrame
         - gameObject
         - stateName
         - layer
         - normalizedTime
-        - everyFrame
-        - targetProperty
         - everyFrame
         - gameObject
         - fsmName
@@ -477,7 +477,7 @@ MonoBehaviour:
         - finishEvent
         - realTime
         paramDataPos: 0000000000000000000000000000000000000000000000000100000001000000010000000000000001000000010000000000000002000000
-        paramByteDataSize: 0000000000000000000000000000000001000000000000000100000000000000000000000000000000000000000000000000000001000000
+        paramByteDataSize: 0000000001000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000001000000
     - name: Destroy
       description: 
       colorIndex: 0
