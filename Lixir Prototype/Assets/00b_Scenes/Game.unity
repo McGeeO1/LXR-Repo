@@ -27064,7 +27064,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.60006, y: 6.40059, z: -10}
+  m_LocalPosition: {x: -7.60076, y: 6.20057, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -69586,7 +69586,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591644451}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.60006, y: 5.90059, z: 0}
+  m_LocalPosition: {x: -7.60076, y: 5.70057, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -90841,6 +90841,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HangingCage2
       objectReference: {fileID: 0}
+    - target: {fileID: 3210478489712136717, guid: b102717cfd871ca4d8da5591a98e65ea, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 3210478489712136718, guid: b102717cfd871ca4d8da5591a98e65ea, type: 3}
       propertyPath: m_RotationalOffset
       value: 1
@@ -104694,7 +104698,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1015717569}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.60006, y: 6.40059, z: -10}
+  m_LocalPosition: {x: -7.60076, y: 6.20057, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -107297,6 +107301,10 @@ PrefabInstance:
     - target: {fileID: 3210478489712136717, guid: b102717cfd871ca4d8da5591a98e65ea, type: 3}
       propertyPath: m_Name
       value: HangingCage3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3210478489712136717, guid: b102717cfd871ca4d8da5591a98e65ea, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 3210478489712136718, guid: b102717cfd871ca4d8da5591a98e65ea, type: 3}
       propertyPath: m_RotationalOffset
@@ -150581,6 +150589,10 @@ PrefabInstance:
     - target: {fileID: 3210478489712136717, guid: b102717cfd871ca4d8da5591a98e65ea, type: 3}
       propertyPath: m_Name
       value: HangingCage1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3210478489712136717, guid: b102717cfd871ca4d8da5591a98e65ea, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 3210478489712136719, guid: b102717cfd871ca4d8da5591a98e65ea, type: 3}
       propertyPath: m_RootOrder
