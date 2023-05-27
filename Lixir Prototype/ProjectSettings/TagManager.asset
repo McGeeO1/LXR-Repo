@@ -23,8 +23,8 @@ TagManager:
   - Platform
   - FallThrough
   - BossStop
-  - 
-  - 
+  - ItemPickup
+  - Object
   - 
   - 
   - 

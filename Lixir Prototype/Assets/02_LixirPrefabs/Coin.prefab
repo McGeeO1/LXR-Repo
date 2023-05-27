@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7730527428934962644}
   - component: {fileID: 2830653478295982852}
   m_Layer: 0
-  m_Name: ItemPickup
+  m_Name: Coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -132,7 +132,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &2830653478295982852
 MonoBehaviour:

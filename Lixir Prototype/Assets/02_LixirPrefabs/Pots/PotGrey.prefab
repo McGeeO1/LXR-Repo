@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8735450527997958934}
   - component: {fileID: 8735450527997958935}
   - component: {fileID: 8735450527997958376}
-  m_Layer: 7
+  m_Layer: 14
   m_Name: PotGrey
   m_TagString: Destructable
   m_Icon: {fileID: 0}
