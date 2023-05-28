@@ -1405,7 +1405,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101010101
-        actionIsOpen: 00010000000000
+        actionIsOpen: 00000000000001
         actionStartIndex: 0000000014000000280000002d00000032000000350000003b000000
         actionHashCodes: 61566a0361566a03c34b4105876045029845b30568fde304a4c8bf00
         unityObjectParams: []
@@ -1841,7 +1841,7 @@ MonoBehaviour:
         customNames:
         - 
         actionEnabled: 01
-        actionIsOpen: 00
+        actionIsOpen: 01
         actionStartIndex: 00000000
         actionHashCodes: 5e69bb04
         unityObjectParams: []
@@ -1896,7 +1896,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          value: 0.1
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -1947,7 +1947,7 @@ MonoBehaviour:
         customNames:
         - Ray Cast 2d - GROUND
         actionEnabled: 01
-        actionIsOpen: 00
+        actionIsOpen: 01
         actionStartIndex: 00000000
         actionHashCodes: 61566a03
         unityObjectParams: []
@@ -3191,8 +3191,8 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 0101010101010001
-        actionIsOpen: 0000000000010001
+        actionEnabled: 0101010000010001
+        actionIsOpen: 0100000001010001
         actionStartIndex: 0000000004000000090000000e00000013000000180000002c0000002f000000
         actionHashCodes: 5e69bb04c34b41058760450287604502f9bc250361566a030c122b0348c01101
         unityObjectParams: []
