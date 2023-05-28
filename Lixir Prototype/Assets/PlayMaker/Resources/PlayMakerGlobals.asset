@@ -71,3 +71,5 @@ MonoBehaviour:
   - spendStamina
   - exhausted
   - falling
+  - reset
+  - respawn
