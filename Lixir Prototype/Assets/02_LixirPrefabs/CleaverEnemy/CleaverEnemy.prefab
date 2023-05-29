@@ -4304,7 +4304,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101
-        actionIsOpen: 00000000
+        actionIsOpen: 00000100
         actionStartIndex: 00000000050000000a0000001e000000
         actionHashCodes: 87604502f9bc250361566a0387604502
         unityObjectParams: []
@@ -4399,7 +4399,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 1.5
         - useVariable: 1
           name: 
           tooltip: 
@@ -4586,7 +4586,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101
-        actionIsOpen: 0101
+        actionIsOpen: 0001
         actionStartIndex: 0000000005000000
         actionHashCodes: 87604502c34b4105
         unityObjectParams: []
@@ -4759,7 +4759,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 1.5
         - useVariable: 1
           name: 
           tooltip: 
@@ -5294,7 +5294,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 1.5
         - useVariable: 1
           name: 
           tooltip: 
