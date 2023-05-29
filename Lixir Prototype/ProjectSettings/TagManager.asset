@@ -9,6 +9,8 @@ TagManager:
   - SoftRespawn
   - Environment
   - Rolling
+  - 1stKey
+  - topRightKey
   layers:
   - Default
   - TransparentFX

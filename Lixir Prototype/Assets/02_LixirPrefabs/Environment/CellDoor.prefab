@@ -1494,7 +1494,7 @@ MonoBehaviour:
           name: next
           isSystemEvent: 0
           isGlobal: 0
-        toState: Interactable
+        toState: Init
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -1555,6 +1555,12 @@ MonoBehaviour:
       isSystemEvent: 0
       isGlobal: 0
     - name: back
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: backToStart
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: interact
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions: []
