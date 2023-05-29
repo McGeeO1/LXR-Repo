@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5635936122005014189}
   - component: {fileID: 6517839184587305004}
   - component: {fileID: 7839898501261134524}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: CellKey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29,8 +29,8 @@ Transform:
   m_GameObject: {fileID: 8566313773379814314}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 28.40284, y: -3.40034, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -97,7 +97,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -132,8 +132,8 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_CollisionDetection: 1
+  m_Constraints: 7
 --- !u!114 &7839898501261134524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -337,13 +337,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 
+          value: PlayerInventory
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 
+          value: has1stKey
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -356,7 +356,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          value: 1
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
