@@ -1452,7 +1452,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101010101010101
-        actionIsOpen: 0000000000000000
+        actionIsOpen: 0000010000000000
         actionStartIndex: 0000000005000000190000002e00000033000000380000003b00000041000000
         actionHashCodes: d23c850461566a0361566a03c34b4105876045029845b30568fde304a4c8bf00
         unityObjectParams: []
@@ -1772,7 +1772,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {x: 0, y: 1}
+          value: {x: 0, y: 0.5}
         - useVariable: 1
           name: groundCheckOffset
           tooltip: 
