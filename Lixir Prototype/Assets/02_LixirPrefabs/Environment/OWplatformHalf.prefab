@@ -181,7 +181,7 @@ GameObject:
   - component: {fileID: 4765136477490754434}
   m_Layer: 10
   m_Name: OWplatformHalf
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -246,7 +246,7 @@ PlatformEffector2D:
   m_RotationalOffset: 0
   m_UseOneWay: 1
   m_UseOneWayGrouping: 0
-  m_SurfaceArc: 180
+  m_SurfaceArc: 135
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
