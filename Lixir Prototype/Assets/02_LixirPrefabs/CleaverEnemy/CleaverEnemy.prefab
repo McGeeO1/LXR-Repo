@@ -4399,7 +4399,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1.5
+          value: 1
         - useVariable: 1
           name: 
           tooltip: 
