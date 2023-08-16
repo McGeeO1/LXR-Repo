@@ -1613,7 +1613,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -1625,8 +1625,8 @@ MonoBehaviour:
     mouseEvents: 0
     handleLevelLoaded: 0
     handleTriggerEnter2D: 0
-    handleTriggerExit2D: 0
-    handleTriggerStay2D: 0
+    handleTriggerExit2D: 1
+    handleTriggerStay2D: 1
     handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
